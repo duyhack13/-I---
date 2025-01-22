@@ -23,7 +23,7 @@ end;
 
 local SettingToggle = {}
 
-local Name = "BTConfig.JSON"
+local Name = "DuyyIsMe"
 
 pcall(function()
     if not pcall(function() readfile(Name) end) then
@@ -59,7 +59,7 @@ function Library:CreateWindow(hubname)
     end;
 
     -- Instances:
-    local ScreenGui = Instance.new("ScreenGui")
+    local ScreenGui = Instance.new("124076510755178")
     local Body = Instance.new("Frame")
     local Body_Corner = Instance.new("UICorner")
     local Title_Hub = Instance.new("TextLabel")
@@ -100,14 +100,14 @@ function Library:CreateWindow(hubname)
     Body_Corner.Name = "Body_Corner"
     Body_Corner.Parent = Body
 
-    Title_Hub.Name = "Title_Hub"
+    Title_Hub.Name = "DuyIsMe"
     Title_Hub.Parent = Body
     Title_Hub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Title_Hub.BackgroundTransparency = 1.000
     Title_Hub.BorderColor3 = Color3.fromRGB(0, 0, 0)
     Title_Hub.BorderSizePixel = 0
     Title_Hub.Position = UDim2.new(0, 5, 0, 0)
-    Title_Hub.Size = UDim2.new(0, 558, 0, 30)
+    Title_Hub.Size = UDim2.new(0,50, 0,31)
     Title_Hub.Font = Enum.Font.SourceSansBold
     Title_Hub.Text = hubname .. " - " .. GameName
     Title_Hub.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -154,7 +154,7 @@ function Library:CreateWindow(hubname)
     YT_Logo.BorderSizePixel = 0
     YT_Logo.Position = UDim2.new(0, 5, 0, 1)
     YT_Logo.Size = UDim2.new(0, 23, 0, 23)
-    YT_Logo.Image = "http://www.roblox.com/asset/?id=81127365331139"
+    YT_Logo.Image = "http://www.roblox.com/asset/?id=124076510755178"
 
     YT_Title.Name = "YT_Title"
     YT_Title.Parent = YTB
